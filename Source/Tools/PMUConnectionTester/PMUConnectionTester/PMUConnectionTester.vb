@@ -522,8 +522,8 @@ Public Class PMUConnectionTester
     Private Sub ComboBoxCommands_SelectedIndexChanged(ByVal sender As Object, ByVal e As EventArgs) Handles ComboBoxCommands.SelectedIndexChanged
 
         'Enable and make visible TextBoxCustomCommand only when the "Send Custom Command" command is selected
-        TextBoxRawCommand.Visible = (ComboBoxCommands.SelectedIndex = 5)
-        TextBoxRawCommand.Enabled = (ComboBoxCommands.SelectedIndex = 5)
+        TextBoxRawCommand.Visible = (ComboBoxCommands.SelectedIndex = 6)
+        TextBoxRawCommand.Enabled = (ComboBoxCommands.SelectedIndex = 6)
 
         '    ' Some protocols only support enable and disable real-time data commands...
         '    If ComboBoxProtocols.SelectedIndex >= 4 And ComboBoxCommands.SelectedIndex > 1 Then
